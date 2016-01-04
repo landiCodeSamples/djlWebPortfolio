@@ -109,6 +109,9 @@ var TextDisplayer = (function(){
     var btnProj = $('#btn_main_proj');
     var acpDom = $('#acp_desc');
     var bcpDom = $('#bcp_desc');
+    var andriodDom = $('#android_project');
+    
+    var txtAndroidProject = "For my final project in the Android Development class, I developed a application that can be used on top of any other android app to provide an interface for users to become a member and set/modify profile settings. The application uses a sqlLite database to store member data which is validated before being stored. I incorporated Android Fragments, Intents, Views and conformed to the Android UI standards to the best of my abilities";
     
     var txtAcp = "I developed an application that would allow people to create \
         mobile-friendly web The idea was to give people an opportunity to \
@@ -141,9 +144,6 @@ var TextDisplayer = (function(){
         by March 19, 2016. The documentation and proof of concepts can be \
         viewed now at http://bloodlines.tk";
     
-    var txtLsp = "In order to learn about HTML5 local storage I decided to \ \n\
-        develope a crud application";
-    
     var getTxtAcp = function(){
         return txtAcp;
     };
@@ -157,8 +157,14 @@ var TextDisplayer = (function(){
             console.log("onBtnProjClick");
             acpDom.text(getTxtAcp);
             bcpDom.text(getTxtBcp);
+            andriodDom.text(getTxtAndroidProject());
         });
     };
+    
+    function getTxtAndroidProject(){
+        return txtAndroidProject;
+    }
+    
     
     return{
         onBtnProjClick : onBtnProjClick
