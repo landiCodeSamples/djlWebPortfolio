@@ -1,0 +1,115 @@
+/*Developed by David Landi 2015 all rights reserved*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+}
+
+.bottom_shadow {
+    -webkit-box-shadow: 0 8px 6px -6px #fff;
+       -moz-box-shadow: 0 8px 6px -6px #fff;
+            box-shadow: 0 8px 6px -6px #fff;
+}
+.window{
+    border-radius:0;
+    box-shadow: 1px 1px 6px #fff;
+    margin-bottom: 13px;
+}
+.dlLink{color:#fff;}
+
+.panel-heading{border-radius:0;}
+.panel{border-radius:0;box-shadow: 1px 1px 16px #fff;}
+.ft_spacing{height:40px;}
+.btm_pnl{min-height: 220px;}
+.top_pnl{min-height: 180px;}
+
+.icon_size{font-size: 53px;}
+.btn_landing{
+    background-image: url("../img/bg.JPG");
+    border-radius: 0px; 
+    margin-top:20px;
+    padding:50px;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+    box-shadow: 1px 1px 6px #fff;
+    color: #fff;
+}
+
+.btn_circle{
+    border-radius: 300px;
+    margin-top:25px;
+    padding: 22px 25px 22px 25px;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px #fff;
+    color: #fff;
+}
+.exp_dwn_btn{
+    border-radius: 300px;
+    margin-top:0;
+    margin-bottom: 20px;
+    padding: 22px 25px 22px 25px;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px #fff;
+    color: #fff;
+}
+.icon_desc{color: #fff;}
+.btn_power{}
+
+#landing{}
+
+.img_logo{
+    box-shadow: 2px 2px 10px #fff;
+    margin-bottom: 15px;
+}
+.icon_right_space{
+    margin-right: 10px;
+}
+
+/*For desktop & laptops > 13''*/
+@media(min-width:768px){
+    #education{
+        width: 100%;
+        height:900px;
+        padding-top: 80px;
+    }
+    .edu_pnl{min-height: 425px;}
+    #experience{
+        width: 100%;
+        height:900px;
+        padding-top: 80px;
+    }
+    #sldGraph{
+        color:#fff;
+        margin-top: 50px;
+        
+    }
+    .graph_size{width: 100%; height: 250px;}
+    #cldGraph{
+        color:#fff;
+        margin-top: 25px;
+        
+    }
+    #landing{
+        width: 100%;
+        height:900px;
+        padding-top: 200px;
+    }
+    .btn_down{
+        color: #fff;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 90px;
+    }
+    #summary{
+        width: 100%;
+        height:900px;
+        padding-top: 300px;
+    }
+    #skills{
+        width: 100%;
+        height:900px;
+        padding-top: 90px;
+    }
+}
